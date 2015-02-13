@@ -4,7 +4,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-import com.globant.cristian.controller.StudentController;
+import com.globant.cristian.controller.ProyectController;
 
 @Configuration
 @EnableAutoConfiguration
@@ -13,7 +13,7 @@ import com.globant.cristian.controller.StudentController;
 public class Aplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(StudentController.class, args);
+		SpringApplication.run(ProyectController.class, args);
 	}
 
 }
